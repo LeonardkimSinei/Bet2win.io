@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:adjustViewBounds="true"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context="com.example.nju.bet2win.MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="368dp"
+        android:layout_height="600dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="8dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintTop_toBottomOf="parent">
+
+        <Button
+            android:id="@+id/button1"
+            android:onClick="one"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/todaytips"
+            android:textStyle="italic"
+            android:text="TodayTips"
+            />
+        <Button
+            android:id="@+id/button2"
+            android:onClick="vipee"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/vip"
+            android:text="Vip"
+            />
+
+        <Button
+            android:id="@+id/button8"
+            android:onClick="viparch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/viparchive"
+            android:textStyle="italic"
+            android:text="vip archive" />
+
+        <Button
+            android:onClick="plus"
+            android:id="@+id/button9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/twoplus"
+            android:text="2+ odds!!! "
+            android:textStyle="italic"/>
+
+        <Button
+            android:id="@+id/button10"
+            android:text="Telegram"
+            android:onClick="telegra"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/tele"
+            android:textStyle="italic"
+             />
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "495187485403",
+    "firebase_url": "https://bet2win-4d31e.firebaseio.com",
+    "project_id": "bet2win-4d31e",
+    "storage_bucket": "bet2win-4d31e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:495187485403:android:2ca912b08c4bab90",
+        "android_client_info": {
+          "package_name": "com.example.nju.bet2win"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "495187485403-dg9a80c19ahu8tgk42i51k8df0uod5oq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCK0nH6c4GAkOdAQ-D7HKCiEIGdwa3tUwo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
